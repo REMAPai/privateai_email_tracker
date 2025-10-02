@@ -7,7 +7,7 @@ const cors = require("cors");
 const serverless = require("serverless-http");
 const app = express();
 const router = express.Router();
-const port = 6000;
+const port = 6049;
 
 app.use(bodyParser.json());
 
