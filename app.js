@@ -88,6 +88,10 @@ router.get(
   pixelHandler("https://automations.aiagents.co.id/webhook/email-pixel-tracker")
 );
 
+router.get("/", (res, req) => {
+  res.send("Hello! :D")
+});
+
 // ==========================
 // REGISTER ROUTER
 // ==========================
