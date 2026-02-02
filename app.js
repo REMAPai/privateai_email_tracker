@@ -85,7 +85,7 @@ variants.forEach((name) => {
 // Optional: Base route without postfix
 router.get(
   "/pixel/:sequence/:id.png",
-  pixelHandler("https://automations.aiagents.co.id/webhook/email-pixel-tracker")
+  pixelHandler("https://automations.remap.ai/webhook/email-pixel-tracker")
 );
 
 router.get("/", (req, res) => {
