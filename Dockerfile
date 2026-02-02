@@ -15,4 +15,4 @@ ENV LLM_PORT=6049
 
 EXPOSE 6049
 
-CMD ["node", "index.js"]
+CMD ["node", "app.js"]
