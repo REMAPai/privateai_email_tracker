@@ -75,7 +75,7 @@ function pixelHandler(webhookUrl) {
 
 variants.forEach((name) => {
   const pixelRoute = `/pixel-${name}/:sequence/:id.png`;
-  const webhookUrl = `https://automations.aiagents.co.id/webhook/email-pixel-tracker-${name}`;
+  const webhookUrl = `https://automations.remap.ai/webhook/email-pixel-tracker-${name}`;
 
   router.get(pixelRoute, pixelHandler(webhookUrl));
 
